@@ -1,0 +1,39 @@
+/* 顶部搜索框 */
+
+.topSearchInput {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* 固定定位 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* 默认隐藏 */
+    display: none;
+}
+
+.topSearchInput .topSearchInputWrapper {
+    width: 444px;
+    height: 32px;
+    margin: 9px auto;
+}
+
+.topSearchInput .topSearchInputWrapper .searchInput {
+    width: 394px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+}
+
+.topSearchInput .topSearchInputWrapper .searchBtn {
+    width: 50px;
+    height: 32px;
+    border: 2px solid #ff6700;
+    box-sizing: border-box;
+    /* 背景图 */
+    background-color: #ff6700;
+    background-image: url(../images/icon_shop.png);
+    background-repeat: no-repeat;
+    background-position: -192px -6px;
+}

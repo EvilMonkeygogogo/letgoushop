@@ -1,0 +1,445 @@
+.lunboshoufeng .leftlunbo{
+    width: 1000px;
+    height: 400px;
+    
+}
+
+.lunboshoufeng .rightshoufeng{
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.lunboshoufeng .rightshoufeng>p{
+    background-color: #93d56f;
+    text-indent: 20px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.lunboshoufeng .rightshoufeng .shoufengqin{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: #ccc;
+
+}
+
+.lunboshoufeng .rightshoufeng .shoufengqin li{
+    width: 200px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+.lunboshoufeng .rightshoufeng .shoufengqin li .numb{
+    width: 20px;
+    height: 20px;
+    background-color: chocolate;
+    color: #fff;
+    text-align: center;
+}
+.lunboshoufeng .rightshoufeng .shoufengqin li .shoubook{
+    height: 30px;
+}
+.lunboshoufeng .rightshoufeng .shoufengqin li .shoubook .booktitle{
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    overflow:hidden;
+    background: url(../商城素材/素材图片/书籍/23353342-1_l.jpg) no-repeat;
+
+}
+
+.lunboshoufeng .rightshoufeng .shoufengqin li .shoubook p{
+    /* float: left; */
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.lunboshoufeng .rightshoufeng .shoufengqin li .bookcontent{
+    width: 200px;
+    height: 120px;
+
+}
+.lunboshoufeng .rightshoufeng .shoufengqin li .bookcontent img{
+    height: 100%;
+    width: 120px;
+    float: left;
+}
+
+.lunboshoufeng .rightshoufeng .shoufengqin li .bookcontent p{
+    line-height: 20px;
+    width: 80px;
+}
+
+.bookszhekou{
+    margin-top: 30px;
+    
+}
+.bookszhekou .bookstop{
+    width: 220px;
+    text-indent: 20px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #ff6600;
+}
+.bookszhekou .booksmarin{
+    border-top: 5px solid #ff6600;
+
+}
+.bookszhekou .booksmarin ul{
+    height: 520px;
+
+}
+
+.bookszhekou .booksmarin ul .litlebox{
+    width: 210px;
+    height: 260px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 25px;
+}
+.bookszhekou .booksmarin ul .litlebox .name{
+    font-size: 16px;
+}
+
+.bookszhekou .booksmarin ul .litlebox .baiyexing{
+    margin-left: 30px;
+    float: left;
+}
+
+.bookszhekou .booksmarin ul .litlebox .tuijian{
+    color: red;
+    font-size: 16px;
+    
+}
+.bookszhekou .booksmarin ul .litlebox .tuijian span{
+    color: #ff6600
+}
+
+.bookszhekou .booksmarin ul .litlebox .jiage{
+    font-size: 25px;
+    color:red;
+}
+.bookszhekou .booksmarin ul .litlebox del{
+    color:#ccc;
+    margin-left: 20px;
+}
+
+.newbooks{
+    margin-top: 30px;
+}
+
+.newbooks .newbookstop{
+    font-size: 26px;
+    
+}
+.newbooks .newbookstop span{
+    background-color: #ff6600;
+    padding-left:7px;
+    padding-right: 5px;
+    color: #fff;
+
+}
+.newbooks .newbookleft{
+    width: 900px;
+    height: 500px;
+    border:1px solid #ccc;
+    border-top:4px solid #ff6600;
+    box-sizing: border-box;
+}
+.newbooks .newbookleft ul{
+    width: 900px;
+}
+.newbooks .newbookleft ul>li{
+    width: 180px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    float: left;
+}
+.newbooks .newbookleft ul>li .name{
+    font-size: 16px;
+    text-indent: 5px;
+}
+.newbooks .newbookleft ul>li .chuban{
+    font-size: 16px;
+    margin-top:5px;
+    color:#a5a5a5;
+    text-indent: 5px;
+}
+.newbooks .newbookleft ul>li .price{
+    font-size: 16px;
+    color: red;
+    text-indent: 5px;
+}
+.newbooks .newbookleft ul>li .price del{
+    color: #a5a5a5;
+    
+}
+
+.newbooks .newbookright{
+    width: 280px;
+    height: 500px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.newbooks .newbookright .righttitle{
+    font-size: 22px;
+    text-align: center;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+}
+
+.newbooks .newbookright ul{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.newbooks .newbookright ul li{
+    line-height: 30px;
+    border-bottom:2px solid #ccc;
+}
+
+.newbooks .newbookright ul li span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline;
+    text-align: center;
+}
+
+.newbooks .newbookright ul li .like{
+    font-size: 16px;
+}
+
+.newbooks .newbookright ul li .fuckyou img{
+}
+
+.newbooks .newbookright ul li .fuckyou p{
+    line-height: 20px;
+    font-size: 12px;
+    height: 160px;
+}
+
+/* 独家提供 */
+.supply {
+    width: 1200px;
+    margin: 40px auto;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 30px;
+}
+
+.supply .supplyTitle {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 6px solid #ff6700;
+}
+
+.supply .supplyTitle > span {
+    background-color: #ff6700;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;;
+}
+
+.supply .supplyTitle > ul > li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+.supply .supplyTitle > ul > li.active {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.supply .supplyContent {
+    width: 1170px;
+    margin: 0 auto;
+    height: 456px;
+}
+
+.supply .supplyContent .productList {
+    width: 1098px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.productList .productItem {
+    padding-top: 10px;
+    float: left;
+    width: 183px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.productList .productItem .img {
+    text-align: center;
+}
+
+.productList .productItem .img > img {
+    width: 120px!important;
+    height: 120px!important;
+}
+
+.productList .productItem .author {
+    font-size: 18px;
+    font-weight: 700;
+    text-indent: 10px;
+}
+.productList .productItem .press {
+    text-indent: 10px;
+}
+.productList .productItem .price {
+    text-indent: 10px;
+    color: red;
+}
+.productList .productItem .price del {
+    color: #ccc;
+}
+
+
+/* 猜你喜欢 */
+.guessLike {
+    width: 1200px;
+    height: 480px;
+    margin: 40px auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.guessLike .guessTitle {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+.guessLike .guessTitle > span {
+    background-color: #ff6700;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;;
+}
+
+.guessLike .guessTitle > p {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: green;
+    text-align: right;
+}
+
+.guessContent {
+    width: 1098px;
+    margin: 0 auto;
+    height: 400px;
+    /* 超出隐藏 */
+    overflow: hidden;
+}
+.guessContentBox {
+    height: 1200px;
+    /* 设置相对定位 */
+    position: relative;
+    top: 0;
+}
+
+/* 页脚 */
+footer{
+    border-top: 4px solid #ff6700;
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    right: 60px;
+    top: -54px;
+}
+
+footer .footercontent .footercontent{
+    
+}
+footer .footercontent ul{
+    background-color: #ccc;
+    height: 95px;
+    margin: 0 auto;
+    padding-left: 350px;
+}
+footer .footercontent ul li{
+    height: 95px;
+    line-height: 95px;
+    width: 130px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+footer .footercontent ul .zheng{
+    background:url(../商城素材/img/222_11.png)no-repeat center;
+}
+footer .footercontent ul .kuai{
+    background:url(../商城素材/img/222_13.png)no-repeat center;
+}
+footer .footercontent ul .bao{
+    background:url(../商城素材/img/222_15.png)no-repeat center;
+}
+footer .footercontent ul .tui{
+    background:url(../商城素材/img/222_17.png)no-repeat center;
+}
+
+/* 底部图片 */
+.dibutu{
+    margin-top: 30px;
+}
+
+.dibutu ul{
+    
+}
+
+.dibutu ul .zhekou{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.dibutu ul .zhekou p{
+    float: left;
+    width: 100px;
+}
+.dibutu ul .zhekou .jingxuan{
+    font-size: 15px;
+    text-indent: 10px;
+}
+.dibutu ul .zhekou .good{
+    text-indent: 10px;
+    color: #ccc;
+}
+.dibutu ul .zhekou .dazhe{
+    width: 90px;
+    border-radius: 50px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
+
+.dibutu ul .zhekou img{
+    float:right;
+    width: 100px;
+}
+.dibutu>img{
+    margin-top: 20px;
+}

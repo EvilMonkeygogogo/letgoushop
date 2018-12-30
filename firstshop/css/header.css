@@ -1,0 +1,104 @@
+/* 顶端 */
+.header .top{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background-color:black;
+}
+
+
+.header .top .loginre{
+    background-color:black;
+    text-align: right;
+    color: #ccc;
+}
+
+.header .top .loginre a{
+    text-decoration: none;
+    color:#ff6600;
+}
+
+.seachcar{
+    margin-top: 5px;
+    height: 34px;
+
+}
+
+.seachcar div>button{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    background-color:#ebebeb;
+    border:1px solid #ebebeb;
+}
+
+.seachcar div>button .icon{
+    width: 35px;
+    height: 32px;
+    float: left;
+    background: url(../商城素材/img/bgicon.png) no-repeat;
+    background-position:-5px -43px;
+}
+
+.seachcar div>button:hover{
+    background-color:#ff6600;
+    color:#ccc;
+    cursor: pointer;
+}
+.seachcar .searchInput{
+    margin-right: 20px;
+    border: 1px solid #ff6600;
+    height: 34px;
+}
+
+.seachcar .searchInput input{
+    width: 345px;
+    height: 34px;
+    text-indent: 10px;
+    border:none;
+    box-sizing: border-box;
+}
+.seachcar .searchInput span{
+    width: 50px;
+    height: 34px;
+    background: #ff6600;
+    display: inline-block;
+    vertical-align:top;
+    background-image: url(../images/bgicon.png);
+}
+.header .nav{
+    position: relative;
+    margin-top: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.header .nav ul{
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header .nav ul>li{
+    font-weight: bold;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+.header .nav ul>li:hover{
+    cursor: pointer;
+}
+
+.nav .logo{
+    width: 201px;
+    height: 114px;
+    background-color: #ff6600;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+
+

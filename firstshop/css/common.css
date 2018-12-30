@@ -1,0 +1,32 @@
+.clear::after {
+    visibility: hidden; 
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float:right;
+}
+
+.warper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dianji:hover{
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}

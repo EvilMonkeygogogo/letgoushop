@@ -1,0 +1,237 @@
+.joincar{
+    height: 600px;
+    background-color: #ccc;
+}
+
+.joincar .joincontent .jointop{
+    color:#5d5d5d;
+    font-size: 17px;
+    padding-top: 15px;
+}
+.joincar .joincontent .jointop>span{
+    font-size: 24px;
+    color: black;
+}
+.joincar .joincontent .magin{
+    background-color: #fff;
+    height: 510px;
+}
+.joincar .joincontent .magin .leftcontent{
+    height: 510px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.joincar .joincontent .magin .rightcontent{
+    width: 830px;
+    height: 510px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.joincar .joincontent .magin .rightcontent>p:first-child{
+    font-size: 20px;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+.joincar .joincontent .magin .rightcontent .booknames{
+    color:red;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-indent: 10px;
+}
+.joincar .joincontent .magin .rightcontent .names{
+    color: #5d5d5d;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.joincar .joincontent .magin .rightcontent .neirong{
+    height: 140px;
+    background-color: #ccc;
+    padding: 10px 15px;
+    position: relative;
+}
+.joincar .joincontent .magin .rightcontent .neirong .jiage{
+    font-size: 15px;
+    color: #5d5d5d;
+    margin-bottom: 15px;
+}
+.joincar .joincontent .magin .rightcontent .neirong .jiage>span{
+    margin: 0 10px;
+    font-size: 24px;
+    color: red;
+    line-height: 20px;
+}
+.joincar .joincontent .magin .rightcontent .neirong .cuxiao{
+    color: #5d5d5d;
+    font-size: 15px;
+    margin:20px 0px;
+}
+.joincar .joincontent .magin .rightcontent .neirong .cuxiao>span{
+    color: red;
+    margin-right: 20px;
+}
+.joincar .joincontent .magin .rightcontent .neirong .lingquan{
+    color:#5d5d5d;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.joincar .joincontent .magin .rightcontent .neirong .lingquan span{
+    width: 90px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    background-color: #ff6600;   
+    line-height: 26px; 
+    text-align: center;
+    color: #fff;
+    text-indent: 0;
+}
+
+.joincar .joincontent .magin .rightcontent .neirong .pingjia{
+    font-size: 15px;
+    border-left: 2px solid #5d5d5d;
+    position: absolute;
+    top:16px;
+    right: 16px;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+
+}
+.joincar .joincontent .magin .rightcontent .neirong .pingjia>span:last-child{
+    color: #ff6700
+}
+
+.joincar .joincontent .magin .rightcontent .categorySelect {
+    margin-top: 30px;
+    line-height: 34px;
+}
+
+.joincar .joincontent .magin .rightcontent .categorySelect>ul>li{
+    float: left;
+    width: 100px;
+    height: 32px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    text-align: center;
+    text-indent: 0;
+    font-size: 14px;
+    line-height: 34px
+}
+
+.joincar .joincontent .magin .rightcontent .categorySelect > ul > li.addactive {
+    border: 1px solid #ff6700;
+}
+
+.joincar .joincontent .magin .rightcontent .addShopCart {
+    margin-top: 30px;
+}
+
+.joincar .joincontent .magin .rightcontent .addShopCart .leftBtn {
+    width: 63px;
+    padding-left: 10px;
+    text-indent: 0;
+    margin-top: 10px;
+}
+.joincar .joincontent .magin .rightcontent .addShopCart .leftBtn input {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    outline: none;
+    float: left;
+    box-sizing: border-box;
+}
+.joincar .joincontent .magin .rightcontent .addShopCart .leftBtn span {
+    width: 21px;
+    height: 21px;
+    background-color: #ccc;
+    float: left;
+    line-height: 21px;
+    text-indent: 0;
+    text-align: center;
+}
+.joincar .joincontent .magin .rightcontent .addShopCart .rightBtn {
+    width: 188px;
+    height: 60px;
+    background-color: #ff6700;
+    color: #fff;
+    font-size: 22px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.joincar .joincontent .magin .rightcontent .reminder {
+    height: 62px;
+    line-height: 62px;
+    margin-top: 20px;
+}
+
+.joincontent .magin .detailLeftImg {
+    height: 512px;
+    width: 370px;
+}
+
+.joincontent .magin .detailLeftImg .topImg {
+    width: 370px;
+    height: 450px;
+}
+.joincontent .magin .detailLeftImg .goodsCode {
+    width: 370px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* 页脚 */
+footer{
+    border-top: 4px solid #ff6700;
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    right: 60px;
+    top: -54px;
+}
+
+footer .footercontent .footercontent{
+    
+}
+footer .footercontent ul{
+    background-color: #ccc;
+    height: 95px;
+    margin: 0 auto;
+    padding-left: 350px;
+}
+footer .footercontent ul li{
+    height: 95px;
+    line-height: 95px;
+    width: 130px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+footer .footercontent ul .zheng{
+    background:url(../商城素材/img/222_11.png)no-repeat center;
+}
+footer .footercontent ul .kuai{
+    background:url(../商城素材/img/222_13.png)no-repeat center;
+}
+footer .footercontent ul .bao{
+    background:url(../商城素材/img/222_15.png)no-repeat center;
+}
+footer .footercontent ul .tui{
+    background:url(../商城素材/img/222_17.png)no-repeat center;
+}
+
+
+
