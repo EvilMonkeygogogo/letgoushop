@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/shopcar.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <!-- 最顶部 -->
+        <div class="top">
+            <p class="loginre warper">
+                欢迎光临<a href="#">乐购</a>,<a href="#">登陆</a> / <a href="#">注册</a>
+            </p>
+        </div>
+        <!-- 搜索购物车 -->
+        <div class="seachcar warper clear">
+            <div class="fr">
+                <button>
+                    <div class="icon"></div>购物车
+                </button>
+                <button>我的订单</button>
+            </div>
+            <div class="searchInput fr">
+                <input type="text" placeholder="创意文具">
+                <span class="searchIcon"></span>
+            </div>
+        </div>
+        <!-- 导航 -->
+        <div class="nav warper clear">
+            <div class="logo">
+                <img src="./商城素材/img/LOGO_02.jpg" alt="" width="100%" height="100%">
+            </div>
+            <ul class="clear fr">
+                <li>图书</li>
+                <li>电子书</li>
+                <li>原创文档</li>
+                <li>服装</li>
+                <li>运动户外</li>
+                <li>孕婴童</li>
+                <li>家具</li>
+                <li>创意文具</li>
+                <li>地方特产</li>
+                <li>海外购</li>
+                <li>电器城</li>
+            </ul>
+        </div>
+        <h2 class="warper shopCartTitle">全部商品( <span class="allNum">1</span> )</h2>
+        <!-- 购物车列表 -->
+        <div class="warper shopCart">
+            <!-- 表格 -->
+            <table>
+                <!-- 表头 -->
+                <thead>
+                    <tr>
+                        <th width="100">
+                            <input type="checkbox" class="allSelect">全选
+                        </th>
+                        <th width="400">商品</th>
+                        <th width="100">单价</th>
+                        <th width="200">数量</th>
+                        <th width="200">小计</th>
+                        <th width="200">操作</th>
+                    </tr>
+                </thead>
+                <!-- 身体 -->
+                <tbody>
+                    <!-- 1 -->
+                    <tr>
+                        <td width="100">
+                            <input type="checkbox" class="singleSelect">
+                        </td>
+                        <td width="400">
+                            <img src="./商城素材/素材图片/书籍/zhui.jpg" alt="">
+                            从你的全世界路过
+                        </td>
+                        <td width="100" class="singlePrice">10.99</td>
+                        <td width="200">
+                            <span class="add">+</span><input class="num" type="text" value="1"><span class="reduce">-</span>
+                        </td>
+                        <td width="200" class="subTotal">
+                            10.99
+                        </td>
+                        <td width="200" class="del">
+                            删除
+                        </td>
+                    </tr>
+                    <!-- 2 -->
+                    <tr>
+                        <td width="100">
+                            <input type="checkbox" class="singleSelect">
+                        </td>
+                        <td width="400">
+                            <img src="./商城素材/素材图片/书籍/zhui.jpg" alt="">
+                            从你的全世界路过
+                        </td>
+                        <td width="100" class="singlePrice">11.99</td>
+                        <td width="200">
+                            <span class="add">+</span><input class="num" type="text" value="1"><span class="reduce">-</span>
+                        </td>
+                        <td width="200" class="subTotal">
+                            11.99
+                        </td>
+                        <td width="200" class="del">
+                            删除
+                        </td>
+                    </tr>
+                    <!-- 3 -->
+                    <tr>
+                        <td width="100">
+                            <input type="checkbox" class="singleSelect">
+                        </td>
+                        <td width="400">
+                            <img src="./商城素材/素材图片/书籍/zhui.jpg" alt="">
+                            从你的全世界路过
+                        </td>
+                        <td width="100" class="singlePrice">12.99</td>
+                        <td width="200">
+                            <span class="add">+</span><input class="num" type="text" value="1"><span class="reduce">-</span>
+                        </td>
+                        <td width="200" class="subTotal">
+                            12.99
+                        </td>
+                        <td width="200" class="del">
+                            删除
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- 结算 -->
+            <div class="account clear">
+                <!-- 左侧 -->
+                <div class="accountLeft fl">
+                    <input type="checkbox" class="allSelect">全选 &emsp;&emsp;
+                    <span>删除选中商品</span>
+                </div>
+                <!-- 右侧 -->
+                <div class="accountRight fr">
+                    已选中 <span class="allNum"> 1 </span> 件商品 &emsp;&emsp;
+                    <strong>总价</strong><span class="allPrice"> 41.00 </span> &emsp;&emsp;
+                    <input class="balance" type="button" value="去结算">
+                </div>
+            </div>
+        </div>
+        <!-- 猜你喜欢 -->
+        <section class="renqicontent warper">
+            <div class="tops">
+                猜你喜欢
+            </div>
+            <ul>
+                <li class="boxs clear">
+                    <img src="./商城素材/素材图片/书籍/22935553-1_l.jpg" alt="" class="baiyexing">
+                    <img src="./商城素材/img/index05_18.jpg" alt="" class="xianshi">
+                    <p class="name">白夜行 东野上午</p>
+                    <p class="tuijian">推荐:<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+                    <p class="jiage">¥:38<del>¥:58</del></p>
+                </li>
+                <li class="boxs clear">
+                    <img src="./商城素材/素材图片/书籍/22935553-1_l.jpg" alt="" class="baiyexing">
+                    <img src="./商城素材/img/index05_18.jpg" alt="" class="xianshi">
+                    <p class="name">白夜行 东野上午</p>
+                    <p class="tuijian">推荐:<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+                    <p class="jiage">¥:38<del>¥:58</del></p>
+                </li>
+                <li class="boxs clear">
+                    <img src="./商城素材/素材图片/书籍/22935553-1_l.jpg" alt="" class="baiyexing">
+                    <img src="./商城素材/img/index05_18.jpg" alt="" class="xianshi">
+                    <p class="name">白夜行 东野上午</p>
+                    <p class="tuijian">推荐:<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+                    <p class="jiage">¥:38<del>¥:58</del></p>
+                </li>
+                <li class="boxs clear">
+                    <img src="./商城素材/素材图片/书籍/22935553-1_l.jpg" alt="" class="baiyexing">
+                    <img src="./商城素材/img/index05_18.jpg" alt="" class="xianshi">
+                    <p class="name">白夜行 东野上午</p>
+                    <p class="tuijian">推荐:<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+                    <p class="jiage">¥:38<del>¥:58</del></p>
+                </li>
+                <li class="boxs clear">
+                    <img src="./商城素材/素材图片/书籍/22935553-1_l.jpg" alt="" class="baiyexing">
+                    <img src="./商城素材/img/index05_18.jpg" alt="" class="xianshi">
+                    <p class="name">白夜行 东野上午</p>
+                    <p class="tuijian">推荐:<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+                    <p class="jiage">¥:38<del>¥:58</del></p>
+                </li>
+            </ul>
+            <img src="./商城素材/img/aaaa.jpg" alt="">
+        </section>
+
+        <!-- 页脚 -->
+        <footer>
+            <div class="footercontent">
+                <ul>
+                    <li class="zheng"></li>
+                    <li class="kuai"></li>
+                    <li class="bao"></li>
+                    <li class="tui"></li>
+                </ul>
+            </div>
+            <div class="serverNav box1200">
+                <div class="serverNavWrapper">
+                    <ul class="clear">
+                        <li>
+                            <dl>
+                                <dt>购物指南</dt>
+                                <dd>购物流程</dd>
+                                <dd>发票额度</dd>
+                                <dd>账户信息</dd>
+                                <dd>会员优惠</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>购物指南</dt>
+                                <dd>购物流程</dd>
+                                <dd>发票额度</dd>
+                                <dd>账户信息</dd>
+                                <dd>会员优惠</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>购物指南</dt>
+                                <dd>购物流程</dd>
+                                <dd>发票额度</dd>
+                                <dd>账户信息</dd>
+                                <dd>会员优惠</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>购物指南</dt>
+                                <dd>购物流程</dd>
+                                <dd>发票额度</dd>
+                                <dd>账户信息</dd>
+                                <dd>会员优惠</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <p>公司简介 | Investor Relations | 网站联盟 | 乐购招商 | 机构销售 | 手机乐购 | 官方Blog | 热词搜索</p>
+                    <p>Copyright (c) 乐购网 2001-2016 ALL Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/shopcar.js"></script>
+</body>
+
+</html>

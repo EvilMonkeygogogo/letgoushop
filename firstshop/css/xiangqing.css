@@ -189,6 +189,55 @@
     font-size: 16px;
 }
 
+/* 人气单品 */
+.renqicontent .tops{
+    width: 120px;
+    text-indent: 10px;
+    height: 55px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #ff6600;
+}
+.renqicontent ul{
+    border-top: 5px solid #ff6600;
+    height: 260px;
+}
+.renqicontent ul .boxs{
+    width: 210px;
+    height: 260px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 25px;
+}
+.renqicontent ul .boxs .name{
+    font-size: 16px;
+}
+
+.renqicontent ul .boxs .baiyexing{
+    margin-left: 30px;
+    float: left;
+}
+
+.renqicontent ul .boxs .tuijian{
+    color: red;
+    font-size: 16px;
+    
+}
+.renqicontent ul .boxs .tuijian span{
+    color: #ff6600
+}
+
+.renqicontent ul .boxs .jiage{
+    font-size: 25px;
+    color:red;
+}
+.renqicontent ul .boxs del{
+    color:#ccc;
+    margin-left: 20px;
+}
+
+
 
 /* 页脚 */
 footer{
@@ -232,6 +281,308 @@ footer .footercontent ul .bao{
 footer .footercontent ul .tui{
     background:url(../商城素材/img/222_17.png)no-repeat center;
 }
+footer .serverNav {
+    height: 320px;
+  }
+  
+footer .serverNav .serverNavWrapper {
+    width: 685px;
+    height: 320px;
+    margin: 0 auto;
+  }
+  
+  
+footer .serverNav .serverNavWrapper > ul {
+    margin-top: 20px;
+    padding-left:70px;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li {
+    width: 137px;
+    height: 170px;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li dl {
+    text-align: center;
+    line-height: 30px;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li dl dt {
+    font-weight: 500;
+    font-size: 22px;
+  }
 
+footer .serverNav .serverNavWrapper p {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+footer .serverNav .serverNavWrapper p:first-of-type {
+    margin-top: 30px;
+  }
 
+.pinglunname{
+    margin-top:40px;
+}
+.pinglunname .pinglunbox .looklook{
+    width: 320px;
 
+}
+
+.pinglunname .pinglunbox .looklook>p{
+    width: 320px;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 26px;
+    color: #5d5d5d;
+    background-color: #ccc;
+    float: left;
+}
+
+.pinglunname .pinglunbox .looklook>ul{
+    width: 320px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.pinglunname .pinglunbox .looklook>ul .boxs{
+    width: 320px;
+    box-sizing: border-box;
+    float: left;
+    padding:25px 68px;
+    border: 1px solid #ccc;
+}
+
+.pinglunname .pinglunbox .looklook>ul .boxs .baiyexing{
+    margin-left: 30px;
+}
+.pinglunname .pinglunbox .looklook>ul .boxs .name{
+    font-size: 16px;
+}
+.pinglunname .pinglunbox .looklook>ul .boxs .tuijian{
+    color: red;
+    font-size: 16px;
+}
+.pinglunname .pinglunbox .looklook>ul .boxs .tuijian>span{
+    color:#ff6600
+}
+.pinglunname .pinglunbox .looklook>ul .boxs .jiage{
+    color: red;
+    font-size: 26px;
+}
+.pinglunname .pinglunbox .looklook>ul .boxs .jiage del{
+    color: #5d5d5d;
+}
+
+.pinglunname .pinglunbox .pinglunqu{
+    width: 880px;
+}
+.pinglunname .pinglunbox .pinglunqu .fen{
+    width: 880px;
+    border-bottom: 4px solid #ff6600;
+}
+.pinglunname .pinglunbox .pinglunqu .fen li{
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.actived{
+    background-color: #ff6600;
+    color:#fff;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei{
+    width:860px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .tp{
+    display: none;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .tp img{
+    width: 860px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl{
+    width: 860px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu{
+    width: 860px;
+    height: 170px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .pingfen{
+    position: relative;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .pingfen>p:first-child{
+    width: 180px;
+    color: red;
+    font-size: 50px;
+    height:170px;
+    line-height:170px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .pingfen>p:nth-of-type(2){
+    font-size: 20px;
+    color: #5d5d5d;
+    position: absolute;
+    top: 110px;
+    height: 20px;
+    line-height: 20px;
+    width: 80px;
+    left: 70px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju{
+    width: 230px;
+    height: 170px;
+
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .good{
+    color: #5d5d5d;
+    font-size: 16px;
+    height: 20px;
+    margin-top:60px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .good>div{
+    width: 150px;
+    height: 20px;
+    background-color: #ccc;
+    float: right;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .good>div>div{
+    width: 145px;
+    height: 20px;
+    background-color:red;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .soso{
+    color: #5d5d5d;
+    font-size: 16px;
+    height: 20px;
+    margin-top: 10px
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .soso>div{
+    width: 150px;
+    height: 20px;
+    background-color: #ccc;
+    float: right;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .soso>div>div{
+    width: 5px;
+    height: 20px;
+    background-color:red;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .bad{
+    color: #5d5d5d;
+    font-size: 16px;
+    height: 20px;
+    margin-top: 10px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu .shuju .bad>div{
+    width: 150px;
+    height: 20px;
+    background-color: #ccc;
+    float: right;
+}
+
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .haopingdu>p{
+    color: #5d5d5d;
+    width: 200px;
+    height: 16px;
+    font-size: 16px;
+    float:right;
+    margin-top: 55px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .allpingjia{
+    height: 30px;
+    background-color: #ccc;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5d5d5d;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .allpingjia span{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .allpingjia span:first-child{
+    color: red;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak{
+    height: 145px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .xingxing{
+    width: 160px;
+    height: 145px;
+    padding: 0 20px;
+}
+
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .xingxing>p{
+    font-size: 5px;
+    color: #5d5d5d;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .xingxing>p:first-child{
+    font-size: 22px;
+    color: #ff6700;
+    margin:10px 0;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .sheseed{
+    width: 500px;
+    height: 145px;
+    color: #5d5d5d;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .shuijun{
+    width: 150px;
+    height: 145px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .shuijun img{
+    width: 35px;
+    margin-bottom: 10px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .shuijun span{
+    font-size: 15px;
+    color: #5d5d5d;
+    
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .shuijun .gold{
+    color: yellow;
+    font-size: 15px;
+   
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .speak .shuijun .from{
+    color:#ccc;
+    font-size: 15px;
+}
+
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .tiaozhuan{
+    height:30px;
+    width: 250px;
+    margin-top: 15px;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .tiaozhuan>li{
+    width: 30px;
+    font-size: 14px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid #ccc;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #5d5d5d;
+}
+.pinglunname .pinglunbox .pinglunqu .fenlei .pl .tiaozhuan .next{
+    width: 50px;
+}

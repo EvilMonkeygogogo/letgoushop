@@ -1,0 +1,229 @@
+.shopCartTitle {
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ff6700;
+}
+
+
+.shopCart  table {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.shopCart  table .allSelect {
+    vertical-align: middle;
+}
+
+.shopCart  table tr td {
+    border: none;
+}
+
+.shopCart  table tbody tr {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.shopCart  table  thead {
+    width: 1200px;
+    background-color: #f2f2f2;
+    height: 60px;
+}
+
+.shopCart  table  thead tr {
+    height: 60px;
+    background-color: #f2f2f2;
+}
+
+
+.shopCart  table tbody {
+    width: 1200px;
+}
+
+.shopCart  table tbody tr {
+    height: 212px;
+    text-align: center;
+}
+
+.shopCart  table tbody tr .num {
+    width: 74px;
+    border: 1px solid #999;
+    margin: 0 -1px;
+    text-align: center;
+    outline: none;
+    padding-bottom: 3px;
+}
+
+.shopCart  table tbody tr .add, .shopCart  table tbody tr .reduce {
+    border:1px solid #999;
+    display: inline-block;
+    width: 10px;
+    height: 19px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.shopCart .account {
+    height: 60px;
+    line-height: 60px;
+    border:1px solid #f2f2f2;
+    margin: 30px auto;
+}
+
+.shopCart .account .accountLeft {
+    text-indent: 40px;
+}
+
+.shopCart .account .accountLeft > input {
+    vertical-align: middle;
+}
+
+.allNum, .allPrice {
+    color: #ff6700;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.balance {
+    width: 110px;
+    height: 60px;
+    background-color: #ff6700;
+    color: #fff;
+    font-size: 22px;
+    border: 1px solid #ccc;
+}
+
+/* 页脚 */
+footer{
+    border-top: 4px solid #ff6700;
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    right: 60px;
+    top: -54px;
+}
+
+footer .footercontent .footercontent{
+    
+}
+footer .footercontent ul{
+    background-color: #ccc;
+    height: 95px;
+    margin: 0 auto;
+    padding-left: 350px;
+}
+footer .footercontent ul li{
+    height: 95px;
+    line-height: 95px;
+    width: 130px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+footer .footercontent ul .zheng{
+    background:url(../商城素材/img/222_11.png)no-repeat center;
+}
+footer .footercontent ul .kuai{
+    background:url(../商城素材/img/222_13.png)no-repeat center;
+}
+footer .footercontent ul .bao{
+    background:url(../商城素材/img/222_15.png)no-repeat center;
+}
+footer .footercontent ul .tui{
+    background:url(../商城素材/img/222_17.png)no-repeat center;
+}
+footer .serverNav {
+    height: 320px;
+  }
+  
+footer .serverNav .serverNavWrapper {
+    width: 685px;
+    height: 320px;
+    margin: 0 auto;
+  }
+  
+  
+footer .serverNav .serverNavWrapper > ul {
+    margin-top: 20px;
+    padding-left:70px;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li {
+    width: 137px;
+    height: 170px;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li dl {
+    text-align: center;
+    line-height: 30px;
+  }
+  
+footer .serverNav .serverNavWrapper > ul > li dl dt {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+footer .serverNav .serverNavWrapper p {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+footer .serverNav .serverNavWrapper p:first-of-type {
+    margin-top: 30px;
+  }
+
+  /*猜你喜欢 */
+.renqicontent .tops{
+    width: 120px;
+    text-indent: 10px;
+    height: 55px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #ff6600;
+}
+.renqicontent ul{
+    border-top: 5px solid #ff6600;
+    height: 260px;
+}
+.renqicontent ul .boxs{
+    width: 210px;
+    height: 260px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 25px;
+}
+.renqicontent ul .boxs .name{
+    font-size: 16px;
+}
+
+.renqicontent ul .boxs .baiyexing{
+    margin-left: 30px;
+    float: left;
+}
+
+.renqicontent ul .boxs .tuijian{
+    color: red;
+    font-size: 16px;
+    
+}
+.renqicontent ul .boxs .tuijian span{
+    color: #ff6600
+}
+
+.renqicontent ul .boxs .jiage{
+    font-size: 25px;
+    color:red;
+}
+.renqicontent ul .boxs del{
+    color:#ccc;
+    margin-left: 20px;
+}
+.renqicontent>img{
+    margin-top: 60px;
+}
